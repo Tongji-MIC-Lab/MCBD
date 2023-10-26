@@ -1,0 +1,23 @@
+dataset:
+  video_info_file: data/video_info_19993.json
+  feat_dir: /root/data1/sty/datasets/anet_1.3/tsp_features/
+  video_filter: true
+  data_aug: true
+  tscale: 100
+  feature_dim: 512
+
+saver:
+  root_dir: output
+  checkpoint_dir: model
+  result_dir: result
+
+training:
+  # learning_rate: [1e-3, 5e-4, 2e-4, 1e-4]
+  # lr_epochs: [2, 3, 3, 3]
+  learning_rate: [1e-3]
+  lr_epochs: [1]
+  batch_size: 16
+
+testing:
+  mode: validation
+  batch_size: 16
