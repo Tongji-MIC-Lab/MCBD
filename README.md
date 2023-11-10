@@ -99,4 +99,4 @@ This implementation is base on [BMN](https://github.com/JJBOY/BMN-Boundary-Match
 
 Please cite the following paper if you find this work useful:
 
-Taiyi Su, Hanli Wang, Lei Wang, Multi-level Content-aware Boundary Detection for Temporal Action Proposal Generation, IEEE Transactions on Image Processing, accepted, 2023.
+Taiyi Su, Hanli Wang, Lei Wang, Multi-level Content-aware Boundary Detection for Temporal Action Proposal Generation, IEEE Transactions on Image Processing, vol. 32, pp. 6090-6101, Nov. 2023.
